@@ -1,0 +1,55 @@
+dl#abg-contacts{
+	margin: 0;
+	padding: 0;
+}
+#abg-contacts dd{
+	display: none;
+}
+#abg-contacts dt.abg-adr-nom:before{
+	bottom: -4px;
+    content: url("img/company.png");
+    left: 0;
+    margin-right: 3px;
+    position: relative;
+}
+#abg-contacts dt.abg-phone:before{
+	bottom: -4px;
+    content: url("img/contact.png");
+    left: 0;
+    margin-right: 3px;
+    position: relative;
+}
+#abg-contacts dt.abg-adr-ligne1:before{
+	bottom: -4px;
+    content: url("img/location.png");
+    left: 0;
+    margin-right: 3px;
+    position: relative;
+}
+#abg-contacts dt.abg-adr-ligne2, dt.abg-adr-ville{
+	padding-left: 23px;
+}
+#abg-contacts dt.abg-mail:before{
+	bottom: -4px;
+    content: url("img/email.png");
+    left: 0;
+    margin-right: 3px;
+    position: relative;
+}
+#abg-contacts dt.abg-mobile:before{
+	bottom: -4px;
+    content: url("img/mobile-phone.png");
+    left: 0;
+    margin-right: 3px;
+    position: relative;
+}
+#abg-contacts dt.abg-fax:before{
+	bottom: -4px;
+    content: url("img/fax.png");
+    left: 0;
+    margin-right: 3px;
+    position: relative;
+}
+#abg-contacts dt{
+	font-weight: normal;
+}

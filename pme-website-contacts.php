@@ -54,7 +54,8 @@ function pmec_shortcode_function($atts,$content) {
     if($contacts_infos[7] != ''){
       $content .= '<dd>Mobile<dd>
                    <dt class="abg-fax" title="Fax">'.$contacts_infos[7].'</dt>';  
-    }                       
+    }  
+    $content .= '</dl>';                     
     return    $content;
 }
 add_action('init', 'pmec_register_pme_website_contacts');
